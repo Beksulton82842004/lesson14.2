@@ -1,0 +1,119 @@
+/* .box1{
+    border: 1px solid black;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 10px;
+} 
+   
+
+.box1::after{
+    content: '60%';
+    width: 60%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.box2{
+    border: 1px solid black;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 100px;
+} 
+   
+
+.box2::after{
+    content: '30%';
+    width: 30%;
+    height: 100%;
+    background-color: rgb(8, 93, 26);
+    border-radius: 15px;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.box3{
+    border: 1px solid black;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 200px;
+} 
+   
+
+.box3::after{
+    content: '53%';
+    width: 53%;
+    height: 100%;
+    background-color: rgb(171, 146, 18);
+    border-radius: 15px;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} */
+
+
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    background-image: url(./image/photo_2023-01-06_19-48-31.jpg);
+width: 100%;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.text{
+    font-size: 55px;
+color: white;
+width: 620px;
+height: 60px;
+text-align: center;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid;
+    color: white;
+    position: absolute;
+    top: 500px;
+    cursor: pointer;
+}
